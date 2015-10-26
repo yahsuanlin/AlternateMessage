@@ -12,16 +12,6 @@ public class AlternateMessage extends JFrame {
     panel.setFocusable(true);
   }
 
-  /** Main method */
-  public static void main(String[] args) {
-    JFrame frame = new AlternateMessage();
-    frame.setTitle("AlternateTwoMessage");
-    frame.setSize(200,100);
-    frame.setLocationRelativeTo(null); // Center the frame
-    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    frame.setVisible(true);
-  }
-
   class RotateMessagePanel extends JPanel {
 	private String msg1 = "Java is fun";
     private String msg2 = "Java is powerful";
